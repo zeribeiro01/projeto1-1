@@ -1,4 +1,4 @@
-/* Estilo para o corpo da página */
+/* corpo da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #009ee7;
@@ -22,8 +22,8 @@ border: 10px solid rgb(240, 20, 20);
     height: auto;
     display: block;
     margin: 20px auto;
-    border-radius: 10px; /* Adiciona borda arredondada */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+    border-radius: 10px; /* para colocar borda arredondada */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /*  sombra */
 }
 
 /* Estilo para os links */
