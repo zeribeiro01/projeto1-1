@@ -15,7 +15,7 @@ h2 {
     margin-top: 20px;
 }
 
-/* Estilo para as imagens */
+/* Estiliza  imagens */
 img {
 border: 10px solid rgb(240, 20, 20);
     max-width: 100%;
@@ -36,12 +36,12 @@ a {
     margin-bottom: 10px;
 }
 
-/* Estilo para os links quando passa o mouse */
+/* cor do link quando passa o mouse */
 a:hover {
     color: #6fda4e;
 }
 
-/* Espaçamento entre os restaurantes */
+/* Espaçamento restaurantes */
 a + img {
     margin-top: 10px;
 }
