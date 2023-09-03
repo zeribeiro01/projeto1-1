@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria de Imagens Ampliáveis</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
+</head>
+<body>
+
+<h1 class="titulo">IFRO-Colorado do Oeste </h1>
+<p> A viagem que foi realizada no dia 09 de agosto de 2023,
+   foi uma experiência muito bacana pois, tivemos o
+    privilegio de conhecer o IFRO-Campus Colorado do Oeste.
+     La tive a oportunidade de explorar as coisas do campus, 
+     como eles cuida
+  m das coisas, vimos que há diversos animais e
+  plantações.</p>
+  <p>Tivemos uma recepção pelo professor Glauber Bedini, 
+    onde ele nos mostrou alguns projetos que o campus faz, 
+    ele nos propôs um desafio aonde tínhamos que fotografar 
+    aquilo que marcava o campus Colorado do Oeste, tivemos 
+    um tour pelo campus aonde conhecemos vários lugares.</p>
+<div class="tabela">
+  
+
+  <div class="sla">
+    ]
+<div class="gallery">
+  <div class="sla">
+    <div class="item">
+  <img src="azul.jpeg" alt="Imagem 1" onclick="openModal(this)">
+  <img src="estrada.jpeg" alt="Imagem 2" onclick="openModal(this)">
+  <img src="trator.jpeg" alt="Imagem 3" onclick="openModal(this)">
+  <img src="formiga.jpeg" alt="Imagem 4" onclick="openModal(this)">
+  <img src="galinha.jpg" alt="Imagem 5" onclick="openModal(this)">
+  <div class="sla"></div>
+  <img src="ipe.jpg" alt="Imagem 6" onclick="openModal(this)">
+  <img src="paisagem.jpg" alt="Imagem 7" onclick="openModal(this)">
+  <img src="pessoas.jpg" alt="Imagem 8" onclick="openModal(this)">
+  <img src="ping.jpg" alt="Imagem 9" onclick="openModal(this)">
+  <img src="porco.jpg" alt="Imagem 10" onclick="openModal(this)">
+  
+  <!-- Adicione mais imagens aqui -->
+</div>
+
+<div class="modal" id="modal">
+  <span class="modal-content">
+    <img id="modal-image" src="" alt="Imagem Ampliada">
+  </span>
+</div>
+
+<script>
+function openModal(imgElement) {
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modal-image");
+
+  modalImage.src = imgElement.src;
+  modal.style.display = "flex";
+
+  modal.addEventListener("click", closeModal);
+}
+
+function closeModal() {
+  const modal = document.getElementById("modal");
+  modal.style.display = "none";
+  modal.removeEventListener("click", closeModal);
+}
+</script>
+</body>
+</html>
+</div>
+</div>
+</div>
+</div>
